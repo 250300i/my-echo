@@ -1,7 +1,7 @@
 NAME := my-echo
 REPOSITORY := ktryoma/$(NAME)
 TAG := 0.1
-GOOS := linux
+GOOS := win32
 GOARCH := amd64
 
 .PHONY: build test image-build image-push clean
@@ -19,4 +19,4 @@ image-push:
 
 clean:
 	rm -rf _output
-	
+
