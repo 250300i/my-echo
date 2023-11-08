@@ -1,4 +1,4 @@
-NAME := my-echo-main
+NAME := my-echo
 REPOSITORY := ktryoma/$(NAME)
 TAG := 0.1
 GOOS := linux
